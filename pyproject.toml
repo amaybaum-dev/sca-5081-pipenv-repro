@@ -1,0 +1,9 @@
+[project]
+name = "sca-5081-pipenv-repro"
+version = "0.1.0"
+description = "Minimal repro — pyproject.toml without [tool.poetry] section"
+requires-python = ">=3.9"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"

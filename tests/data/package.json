@@ -1,0 +1,7 @@
+{
+  "name": "sca-5081-inner-package",
+  "version": "1.0.0",
+  "dependencies": {
+    "broken-link": "link:../../../packages/does-not-exist"
+  }
+}
